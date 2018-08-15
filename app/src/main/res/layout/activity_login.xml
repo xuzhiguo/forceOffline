@@ -50,7 +50,17 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
         </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/remember_pass"
+                android:text="记住密码"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
+        </LinearLayout>
         <LinearLayout
             android:gravity="center"
             android:layout_width="match_parent"
